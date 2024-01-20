@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Selections from "./components/Selections";
 import FoopieList from "./components/FoopieList";
-import Counter from "./components/Counter";
+import Object from "./components/Object";
 
 function App() {
   const [count, setCount] = useState(0);

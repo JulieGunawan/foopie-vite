@@ -275,10 +275,16 @@ Featured Foopies
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
+  .featured .foopieId {
+    height: fit-content;
+  }
 }
 @media screen and (min-width: 1170px) {
   .featured-center {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .featured .foopieId {
+    height: 80px;
   }
 }
 /* section */
