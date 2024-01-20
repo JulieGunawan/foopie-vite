@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Selections from "./components/Selections";
 import FoopieList from "./components/FoopieList";
-import Object from "./components/Object";
+import Counter from "./components/Counter";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -19,6 +19,7 @@ function App() {
       <About />
       <Selections />
       <FoopieList />
+      <Counter />
       <Footer />
     </div>
   );
