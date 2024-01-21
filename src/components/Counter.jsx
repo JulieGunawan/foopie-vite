@@ -1,9 +1,9 @@
-import React from "react";
+import { useState, useEffect } from "react";
 import { data } from "../data";
 
 const Counter = () => {
-  const [people, setPeople] = React.useState(data);
-  const [value, setValue] = React.useState(0);
+  const [people, setPeople] = useState(data);
+  const [value, setValue] = useState(0);
   const removeItem = (id) => {
     console.log(id);
     const newArray = people.filter((person) => person.id !== id);

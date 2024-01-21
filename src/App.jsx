@@ -7,11 +7,9 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Selections from "./components/Selections";
 import FoopieList from "./components/FoopieList";
-import Counter from "./components/Counter";
+import Fetch from "./components/Fetch";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="foopieStore">
       <Navbar />
@@ -19,7 +17,6 @@ function App() {
       <About />
       <Selections />
       <FoopieList />
-      <Counter />
       <Footer />
     </div>
   );
