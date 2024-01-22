@@ -379,3 +379,17 @@ Selection
     margin-bottom: 0.5rem;
   }
 }
+
+.user {
+  display: flex;
+}
+.user .left {
+  margin-bottom: 10px;
+}
+.user .userImg {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin: 10px auto;
+  display: flex;
+}
